@@ -78,6 +78,10 @@ SERVER_API = {
 ```
 
 * 启动:
+```shell
+docker 启动语句： docker run -p 5010:5010 -it lbdong2013/ip_pool:1.1 /bin/sh
+将docker加入redis所在网络： docker network connect docker-lnmp_backend 容器id
+```
 
 ```shell
 # 如果你的依赖已经安全完成并且具备运行条件,可以直接在Run下运行main.py
